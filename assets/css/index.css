@@ -1,0 +1,16 @@
+div.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.table-wrapper {
+    width: 75%;
+}
+
+table#subreddit-table {
+    width: 100% !important;
+}
