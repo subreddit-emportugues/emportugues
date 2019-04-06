@@ -1,6 +1,6 @@
 $(document).ready( function () {
 
-    $.getJSON("../../data/subreddit-data.json", function(data) {
+    $.getJSON("../../../crawler/data/subreddit-data.json", function(data) {
 
         let table = []
 
