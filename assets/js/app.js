@@ -1,6 +1,6 @@
 $(document).ready( function () {
 
-    $.getJSON("../../../data/subreddit-data.json", function(data) {
+    $.getJSON("../../../data/subreddits.json", function(data) {
 
         updateDate(data);
         updateTable(data);
