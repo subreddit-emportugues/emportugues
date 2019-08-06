@@ -1,0 +1,25 @@
+{
+    "decimal":        ",",
+    "emptyTable":     "Nenhum subreddit encontrado",
+    "info":           "_START_ - _END_ de _TOTAL_ subreddits",
+    "infoEmpty":      "Nenhum subreddit sendo mostrado",
+    "infoFiltered":   "(Total: _MAX_)",
+    "infoPostFix":    "",
+    "thousands":      ".",
+    "lengthMenu":     "Mostrar: _MENU_",
+    "loadingRecords": "Carregando...",
+    "processing":     "Processando...",
+    "search":         "",
+    "zeroRecords":    "Nenhum subreddit encontrado",
+    "searchPlaceholder": "Pesquisar",
+    "paginate": {
+        "first":      "Primeiro",
+        "last":       "Último",
+        "next":       "Próximo",
+        "previous":   "Anterior"
+    },
+    "aria": {
+        "sortAscending":  ": ordenar colunas de forma ascendente",
+        "sortDescending": ": ordenar colunas de forma descendente"
+    }
+}
