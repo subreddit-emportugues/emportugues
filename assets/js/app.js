@@ -1,26 +1,11 @@
 let total_activity = 0;
 
-cLog("JS carregado");
-
-function cLog(msg) {
-    var currentdate = new Date();
-    var datetime = currentdate.getSeconds() + ":" +
-        currentdate.getMilliseconds();
-    console.log(msg + " | " + datetime);
-}
-
 $(document).ready(function () {
-
-    cLog("Documento pronto");
 
     $.getJSON("../../../data/subreddits.json", function (data) {
 
-        cLog("JSON lido");
-
         updateDate(data);
-        cLog("Date Updated");
         updateTable(data);
-        cLog("Table Updated");
     });
 
 });
@@ -53,8 +38,6 @@ function updateTable(data) {
 
         total_activity += data.subreddits[i].recent_submissions + data.subreddits[i].recent_comments;
     }
-
-    cLog("Array table formado");
 
     let t = $('#subreddit-table').DataTable({
         data: table,
@@ -131,8 +114,6 @@ function updateTable(data) {
         }
     });
 
-    cLog("Datatable formado");
-
     t.on('order.dt search.dt', function () {
         t.column(0, {
             search: 'applied',
@@ -143,7 +124,6 @@ function updateTable(data) {
         });
     }).draw();
 
-    cLog("X");
 }
 
 $.fn.dataTable.render.age = function () {
