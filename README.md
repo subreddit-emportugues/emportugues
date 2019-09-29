@@ -4,9 +4,9 @@
 
 Site que mostra informações sobre subreddits lusófonos linkados em postagens do subreddit [r/EmPortugues](https://www.reddit.com/r/EmPortugues/).
 
-O site extrai informações de um banco de dados em JSON armazenado em servidor usando [jQuery](https://jquery.com/) para exibir os resultados paginados numa tabela com funcionalidades de [DataTables](https://datatables.net/) numa página responsiva estilizada com auxílio de [Bootstrap](https://getbootstrap.com/).
+O site extrai dados serializados em JSON armazenado em servidor usando [jQuery](https://jquery.com/) para exibir os resultados paginados numa tabela com funcionalidades de [DataTables](https://datatables.net/) numa página responsiva estilizada com auxílio de [Bootstrap](https://getbootstrap.com/).
 
-A página principal do site carrega o arquivo JSON com `$.getJSON()`, extrai os dados em tabela com `$().DataTable()` e propicia a filtragem do bando de dados com `search`, a reordenação das colunas da tabela com `colReorder` e a paginação com `page` além de dipor de um `footer` com links para o [subreddit](https://www.reddit.com/r/EmPortugues/), o [aplicativo](https://play.google.com/store/apps/details?id=org.emportugues.aplicativo) e este repositório.
+A página principal do site carrega o arquivo JSON com `$.getJSON()`, extrai os dados em tabela com `$().DataTable()` e propicia a filtragem dos dados com `search`, a reordenação das colunas da tabela com `colReorder` e a paginação com `page` além de dispor de um `footer` com links para o [subreddit](https://www.reddit.com/r/EmPortugues/), o [aplicativo](https://play.google.com/store/apps/details?id=org.emportugues.aplicativo) e este repositório.
 
 As informações apresentadas no site são: `"icon"`, `"name"`, `"description"`, `"recent_submissions"` e `"recent_comments"`, `"members"`, `"age"`, `"moderators"`, `"nsfw"` e o link de cada subreddit listado.
 
@@ -19,11 +19,10 @@ As informações apresentadas no site são: `"icon"`, `"name"`, `"description"`,
 * [Referências](#Referências)
 
 ## Instalação
-1. Baixe o repositório;
-2. descomprima o arquivo;
-3. navegue até a pasta;
-4. selecione o arquivo "index.html";
-5. e edite com um bloco de notas.
+1. Clone o repositório;
+2. navegue até a pasta;
+3. selecione o arquivo "index.html";
+4. e edite com um editor de texto.
 
 ## Instruções
 Para alterar o endereço do arquivo JSON, em [app.js](https://github.com/subreddit-emportugues/site/blob/master/assets/js/app.js), edite:
@@ -182,7 +181,7 @@ Você pode colaborar com o desenvolvimento deste repositório!
 
 ## Demonstração
 
-[Acesse o site para entender como o código deste repositório funciona.](https://emportugues.org/) ![](/site.gif)
+[Acesse o site para entender como o código deste repositório funciona.](https://emportugues.org/)
 
 ## Referências
 
