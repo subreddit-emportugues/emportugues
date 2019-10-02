@@ -15,7 +15,7 @@ As informações apresentadas no site são: `"icon"`, `"name"`, `"description"`,
 * [Instruções](#Instruções)
 * [Dependências](#Dependências)
 * [Colaboração](#Colaboração)
-* [Página Inicial](#Página_Inicial)
+* [Página Inicial](#Página-Inicial)
 * [Referências](#Referências)
 
 ## Instalação
