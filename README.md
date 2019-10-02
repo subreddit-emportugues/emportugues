@@ -15,7 +15,7 @@ As informações apresentadas no site são: `"icon"`, `"name"`, `"description"`,
 * [Instruções](#Instruções)
 * [Dependências](#Dependências)
 * [Colaboração](#Colaboração)
-* [Demonstração](#Demonstração)
+* [Página Inicial](#Página_Inicial)
 * [Referências](#Referências)
 
 ## Instalação
@@ -179,9 +179,9 @@ Você pode colaborar com o desenvolvimento deste repositório!
 
 [Confira os kanbans deste projeto](https://github.com/orgs/subreddit-emportugues/projects/7), [entre em contato com a equipe de moderação](https://reddit.com/message/compose?to=/r/EmPortugues) e [participe da equipe de desenvolvimento](https://github.com/orgs/subreddit-emportugues/teams/desenvolvedores) para saber a respeito do progresso deste repositório caso queira colaborar antes de [reportar um novo problema](https://github.com/subreddit-emportugues/site/issues) ou [solicitar o recebimento de uma modificação](https://github.com/subreddit-emportugues/site/pulls).
 
-## Demonstração
+## Página Inicial
 
-[Acesse o site para entender como o código deste repositório funciona.](https://emportugues.org/)
+### https://emportugues.org
 
 ## Referências
 
